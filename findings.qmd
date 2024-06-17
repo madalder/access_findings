@@ -1,5 +1,5 @@
 ---
-title: "**Accessibility Training Discovery Activity:**"
+title: "**Accessibility Training Discovery Activity**"
 subtitle: "Findings, suggestions, and next steps"
 logo: images/astho1.png
 format: 
@@ -127,9 +127,9 @@ Incorporate gamification and interactive elements to make learning engaging and 
 Amplify voices of those with lived experience via story sharing, hiring disabled trainers, etc.
 :::
 
-##  {#discuss data-menu-title="Now what?"}
 
-# Now what?
+
+# Now what? {#discuss data-menu-title="Now what?"}
 
 ::: {.fragment style="position: absolute; bottom: 350 px; left: 550px; font-size: 2em;"}
  *Let's discuss!*
