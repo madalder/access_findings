@@ -1,4 +1,4 @@
 - source: findings.qmd
   netlify:
     - id: a71dc0dd-98d5-4d05-8f31-ca7fc60ea088
-      url: 'https://neon-sundae-408c37.netlify.app'
+      url: 'https://astho-access-training-findings.netlify.app'
