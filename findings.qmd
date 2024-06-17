@@ -1,0 +1,136 @@
+---
+title: "**Accessibility Training Discovery Activity:**"
+subtitle: "Findings, suggestions, and next steps"
+logo: images/astho1.png
+format: 
+  revealjs:
+    theme: [default, styles.scss]
+    hash-type: number
+    controls: auto
+    auto-animate-easing: ease-in-out
+    auto-animate-unmatched: false
+    auto-animate-duration: 0.8
+    width: 1260
+    height: 750
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+
+source("viz.R")
+
+```
+
+##  {#topics data-menu-title="Topics"}
+
+[**Training Findings** \| Topics]{.slide-header}
+
+<br> <br> <br>
+
+```{r}
+
+topic_bubble
+```
+
+##  {#training-modes data-menu-title="Modes"}
+
+[**Training Findings** \| Modes]{.slide-header} <br>
+
+```{r}
+mode_cloud
+```
+
+##  {#resource-needs data-menu-title="Resources"}
+
+[**Training Findings** \| Resources]{.slide-header} <br>
+
+```{r}
+resources_cloud
+```
+
+##  {#takeaways data-menu-title="Takeaways"}
+
+[**Training Findings** \| Takeaways]{.slide-header}
+
+<br><br>
+
+::: columns
+::: {.column width="30%"}
+::: {.fragment .rounded-box style="border: 5px solid #70C4E8; height: 150px;"}
+**Who:** <br> <br> All ASTHO Staff
+:::
+
+<br>
+
+::: {.fragment .rounded-box style="border: 5px solid #C65227;height: 250px;"}
+**What:** <br> <br> Training provided by individuals with disabilities/lived experiences <br> Sharing access stories anonymously <br> External evaluation and reflection
+:::
+:::
+
+::: {.column width="30%"}
+::: {.fragment .rounded-box style="border: 5px solid #EBB41F; height: 150px;"}
+**Why:** <br> <br> To integrate accessibility into the fabric of ASTHO for all internal and external processes, etc.
+:::
+
+<br>
+
+::: {.fragment .rounded-box style="border: 5px solid #47ba83;height: 250px;"}
+**When:**<br> <br> Onboarding <br> All Staff Meetings <br> ASTHO Day/Week <br> Small group sessions within units <br> Other ongoing regularly scheduled meetings
+:::
+:::
+
+::: {.column width="30%"}
+::: {.fragment .rounded-box style="height: 150px; border: 5px solid #c65227;"}
+**Where:** <br> Internal platforms (e.g., Break Room/my.ASTHO, monday.com) to reinforce learning and access resources <br> Handbook <br> CD & other ASTHO processes
+:::
+
+<br>
+
+::: {.fragment .rounded-box style="height: 250px;"}
+**How:** <br> Multimodal learning to cater to different learning needs <br> Gamification and interactive elements to make learning engaging (e.g., Kahoot) <br> Hands-on/interactive sessions <br> Videos and quizzes for self-paced learning <br> Practice evaluations (e.g., evaluating simple sites for accessibility issues)
+:::
+:::
+:::
+
+##  {#suggestions data-menu-title="Key Suggestions"}
+
+[**Training Findings** \| Key Suggestions]{.slide-header}
+
+<br> <br>
+
+::: fragment
+**Integration and Regularity:**
+:::
+
+::: fragment
+Integrate accessibility training into regular training and organizational processes.
+:::
+
+::: fragment
+Ensure training is ongoing and not just a one-time event.
+:::
+
+<br>
+
+::: fragment
+**Engagement and Authenticity:**
+:::
+
+::: fragment
+Incorporate gamification and interactive elements to make learning engaging and accessible.
+:::
+
+::: fragment
+Amplify voices of those with lived experience via story sharing, hiring disabled trainers, etc.
+:::
+
+##  {#discuss data-menu-title="Now what?"}
+
+# Now what?
+
+::: {.fragment style="position: absolute; bottom: 350 px; left: 550px; font-size: 2em;"}
+ *Let's discuss!*
+:::

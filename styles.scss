@@ -1,0 +1,353 @@
+/*-- scss:defaults --*/
+
+// fonts
+@import 'https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet';
+@import 'https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500;700&display=swap" rel="stylesheet';
+
+$font-family-sans-serif: "Jost", sans-serif;
+$presentation-heading-color: #1b5380;
+$presentation-title-slide-text-align: "left";
+
+// colors
+$blue:    #1b5380 !default;
+$yellow:  #e9b444 !default;
+$green:   #4eb180 !default;
+$lightblue:    #6fc5e9 !default;
+$dark:    #242c3d !default;
+$offwhite: #fcfbfa !default;
+$orange: #C65227;
+$body-bg: #fcfbfa;
+$body-color: #222326;
+$link-color: #C65227;
+$code-block-bg: $body-bg;
+$code-block-border-color: $body-bg;
+$tabset-border-color: $body-color;
+
+/*-- scss:rules --*/
+
+details>summary {
+  font-size: 0.75em;
+}
+
+
+// Navbar
+
+.navbar {
+  font-size: 0.75em;
+  border: 1px solid rgba(0, 0, 0, .1);
+}
+
+// Typography
+
+.reveal .section-header {
+    color: $offwhite;
+  font-size: 2.3em !important;
+  font-weight: 300;
+}
+
+.reveal .title {
+  color: $orange;
+  font-size: 1.8em !important;
+  line-height: 1.1em !important;
+  font-weight: 500;
+  position: absolute;
+  bottom: -150px;
+  left: 250px;
+  text-align: left;
+}
+
+
+.reveal .subtitle {
+  color: $blue;
+  font-size: 1em !important;
+  font-weight: 500;
+  position: absolute;
+  bottom: -250px;
+  left: 250px;
+  text-align: left;
+  font-style: italic; /* Add this line to italicize the subtitle */
+}
+
+
+.reveal .subtitle-sm {
+  color: #005182;
+  font-size: 1em !important;
+  font-weight: 400;
+  position: absolute;
+  bottom: 200px;
+  left: 700px;
+  text-align: left;
+}
+
+.reveal .slide-header {
+  font-size: .9em !important;
+  font-weight: 300;
+  position: absolute;
+  color: $orange;
+}
+
+.reveal .text-lg {
+  font-family: Sunflower;
+  text-align: left !important;
+  color: $blue;
+  font-size: 1.1em !important;
+  font-weight: 800;
+  line-height: 1.2em !important;
+  display: block !important;
+  padding-bottom: 20px;
+}
+
+.reveal .text-md {
+  text-align: left !important;
+  color: $blue;
+  font-size: .9em !important;
+  font-weight: 400;
+  line-height: 1.2em !important;
+  display: block !important;
+}
+
+.reveal .text-xlg {
+    position: absolute;
+    line-height: 1.3em !important;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.reveal .text-xlg-und {
+    position: absolute;
+    line-height: 1.0em !important;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.reveal .text {
+  color: $blue;
+  position: absolute;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 1.3em;
+}
+
+.reveal .text-sm {
+  color: $blue;
+  line-height: .7em;
+}
+
+.reveal .text-xsm {
+  color: $blue;
+  font-size: .7em !important;
+  line-height: 0.8em !important;
+}
+
+.reveal .text-left {
+    text-align: left !important;
+    color: $blue;
+    font-size: .65em !important;
+    font-weight: 400;
+    line-height: 1.2em !important;
+    display: block !important;
+}
+
+.reveal .text-left-bg {
+    text-align: left !important;
+    color: $blue;
+    font-size: .9em !important;
+    font-weight: 700;
+    line-height: 1.3em !important;
+    display: block !important;
+}
+
+.reveal .quote {
+  font-style: italic;
+  color: $offwhite;
+  font-size: .9em !important;
+  line-height: 1.0em !important;
+  font-weight: 400;
+  text-align: left;
+  left: 50px;
+}
+
+.reveal .quote-other {
+  color: $offwhite;
+  font-size: 1.1em !important;
+  line-height: 1.3em !important;
+  font-weight: 600;
+  text-align: left;
+  position: absolute;
+  left: 760px;
+}
+
+.reveal .footnote {
+  text-align: left !important;
+  color: $blue;
+  font-size: .4em !important;
+  font-weight: 400;
+  line-height: 1.1em !important;
+  display: block !important;
+}
+
+
+.reveal .title-slide h1 {
+  position: absolute;
+
+}
+
+.reveal p {
+  color: $blue;
+  line-height: 1.1em;
+}
+
+.reveal h1 {
+  color: $orange;
+}
+
+.reveal h2 {
+  color: $orange;
+}
+
+
+blockquote {
+  font-style: italic;
+}
+
+// body
+
+.reveal .reveal-full-page {
+  margin-left: 0px;
+}
+
+
+// video embeds
+.reveal .element.style {
+  margin: 0% !important;
+}
+
+.video-js .vjs-tech {
+  left: 200px !important;
+  box-shadow: 0px 14px 15px 2px rgba(0,0,0,.3)
+}
+
+.vjs-modal-dialog .vjs-modal-dialog-content, .video-js .vjs-modal-dialog, .vjs-button > .vjs-icon-placeholder:before, .video-js .vjs-big-play-button .vjs-icon-placeholder:before {
+  position: none !important;
+}
+
+
+.vjs-icon-play, .video-js .vjs-play-control .vjs-icon-placeholder, .video-js .vjs-big-play-button .vjs-icon-placeholder:before {
+  color: $offwhite;
+  background-color: $lightblue;
+  border-radius: 100px;
+}
+.video-js .vjs-big-play-button {
+  background-color: $offwhite !important;
+}
+
+.video-js:hover .vjs-big-play-button, .video-js .vjs-big-play-button:focus {
+  background-color: $offwhite !important;
+}
+
+.reveal .video-js {
+    display: block;
+    vertical-align: top;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: $offwhite;
+    position: relative;
+    padding: 0;
+    font-size: 10px;
+    line-height: 1;
+    font-weight: normal;
+    font-style: normal;
+    word-break: initial;
+}
+
+.vjs-has-started .vjs-control-bar, .vjs-audio-only-mode .vjs-control-bar {
+    display: none;
+    visibility: hidden;
+    opacity: 1;
+    transition: visibility 0.1s, opacity 0.1s;
+}
+
+
+// iFrame
+
+.frame
+{
+    border: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.background-title {
+    background-color: $orange !important;
+}
+
+.highchart {
+  height: 600px !important;
+  width: 1800px !important;
+}
+
+.html-widget-static-bound {
+  height: 600px !important;
+  width: 1800px !important;
+
+}
+
+.html-fill-item {
+  height: 600px !important;
+  width: 1800px !important;
+}
+
+.html-widget {
+  height: 600px !important;
+  width: 1800px !important;
+}
+
+.color-block {
+  position: absolute;
+  height: 2000px;
+  width: 900px;
+  background-color: $orange;
+  top: -200px;
+  right: -200px;
+}
+
+.tooltip_container {
+  height: 480px;
+  width: 320px;
+  padding: 7px;
+  vertical-align: text-top !important;
+  text-wrap: wrap;
+  overflow-y: scroll
+}
+
+.highcharts-tooltip {
+  pointer-events: auto !important;
+}
+
+
+.highchart {
+  height: 600px !important;
+  width: 1200px !important;
+}
+
+.html-widget-static-bound {
+  height: 600px !important;
+  width: 1200px !important;
+}
+
+.html-fill-item {
+  height: 600px !important;
+  width: 1200px !important;
+}
+
+.rounded-box {
+  border: 5px solid #70c4e8;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: #f9f9f9;
+  font-size: 0.5em; /* Adjust font size */
+  margin-bottom: 8px; /* Add margin-bottom for spacing below the box */
+}
+
+
+
